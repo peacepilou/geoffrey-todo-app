@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+    Le style que j'écris ici est un style global (tous les composants en hériteront)
+    Le style que j'écris dans un composant en particulier écrit par-dessus le style global écrit dans ce fichier.
+*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+}

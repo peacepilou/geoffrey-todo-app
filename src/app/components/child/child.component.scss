@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid black;
+    #rabbit-name {
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+    
+    #rabbit-color {
+        color: red;
+    }
+}

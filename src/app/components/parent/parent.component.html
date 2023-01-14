@@ -1,0 +1,5 @@
+<ul *ngIf="rabbitList">
+    <li *ngFor="let rabbit of rabbitList">
+       <app-child [rabbitChild]="rabbit"></app-child>
+    </li>
+</ul>
